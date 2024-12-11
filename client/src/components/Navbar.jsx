@@ -57,35 +57,22 @@ const Navbar = () => {
           </a>
         </li>
 
-        {/* <li className="px-2 md:px-4">
-          <a
-            href="#"
-            className="text-gray-500 font-semibold hover:text-purple-500"
-          >
-            {" "}
-            Press{" "}
-          </a>
-        </li> */}
-
-        {/* <li className="px-2 md:px-4">
-          <a
-            href="#"
-            className="text-gray-500 font-semibold hover:text-purple-500"
-          >
-            {" "}
-            Contact{" "}
-          </a>
-        </li> */}
-
         <li className="px-2 md:px-4 hidden md:block">
+
+          <Link
+          to="/login"
+          className="text-purple-600 font-semibold hover:text-purple-500"
+          >
+         
           <a
             href="#"
             className="text-gray-500 font-semibold hover:text-purple-500"
           >
-            Login
+            {" "}
+            Login{" "}
           </a>
+          </Link>
         </li>
-       
       </ul>
 
       <ul className="sm:hidden">

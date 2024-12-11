@@ -1,4 +1,3 @@
-/* eslint-disable no-const-assign */
 import publicAxios from "../../../components/publicAxios";
 
 export const getBlogs = async (tags, search) => {

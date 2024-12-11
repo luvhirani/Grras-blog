@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/home/Home.jsx';
 import SingleBlog from './pages/blogs/SingleBlog.jsx';
+import Login from './components/login.jsx';
 
 
 const router = createBrowserRouter([
@@ -22,11 +23,15 @@ const router = createBrowserRouter([
       {
         path: "/blogs/:id",
         element: <SingleBlog/>
+      },
+      {
+        path: "/login",
+        element: <Login/>
       }
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />,
+  <App />
 )
